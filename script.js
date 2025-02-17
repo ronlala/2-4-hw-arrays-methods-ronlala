@@ -28,10 +28,10 @@ const fruits = [
   // first element color destructuring
   const firstElementcolor = colors.find((colorElement1) => colorElement1.length > 1  );
   // Second element color destructuring
-  const LastElementcolor = colors.findLast((colorElement2) => colorElement2.length < 7);
+  const lastElementcolor = colors.findLast((colorElement2) => colorElement2.length < 7);
 
   // prints out the firs and second elements of the colors array
- console.log ("The first color on your list is "+ firstElement + " and the last color on your list is "+ LastElement +);
+ console.log ("The first color on your list is "+ firstElementcolor + " and the last color on your list is "+ lastElementcolor);
   
 
   // 4
