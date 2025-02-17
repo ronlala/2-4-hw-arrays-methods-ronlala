@@ -13,13 +13,13 @@ const fruits = [
 
   console.log(fruits.length);
 
-  const totalFruits(fruits.length);
+  const totalFruits = (fruits.length);
   
   // 2
   // Retrieve the first and last elements of fruits array
   const firstElement = fruits.find((element1) => element1.length > 1  );
   const LastElement = fruits.findLast((element2) => element2.length < 7);
- console.log ( "You have "+ totalFruits +"fruits on your list. The First Fruit on your list is "+ firstElement + " and the last fruit on your list is "+ LastElement +);
+ console.log ( "You have "+ totalFruits + "fruits on your list. The First Fruit on your list is " + firstElement + " and the last fruit on your list is " + LastElement );
   
   // 3
   // Retriever the first and the second elements from the colors array
@@ -37,7 +37,7 @@ const fruits = [
   // 4
   // Change the first element of colors array to orange
 
-const replaceFirstelement = colors.replace("red","orange");
+//const replaceFirstelement = colors.replace("red","orange");
 
   
   // 5
