@@ -68,12 +68,13 @@ const replaceThirdElement = colors.splice(2,1,"Teal");
   // 9
   // Add your favorite fruit to the beginning of the fruits array
   
-  const beginningFruit = fruits.splice(1,0,"pear");
+  const beginningFruit = fruits.unshift("pear");
   console.log(fruits);
   // 10
   // Add your second favorite fruit to the end of the fruits array
- fruits.splice(6,1, "watermelon" );
+ fruits.push( "watermelon" );
 console.log(fruits);
+
 
   const numbers = [1, 2, 3, 2, 4, 2, 5];
   
